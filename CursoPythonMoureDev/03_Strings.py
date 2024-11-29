@@ -25,3 +25,18 @@ print(f"Mi nombre es {name} {surname} y mi edad es {age}")#La f de adelante es p
 
 ### Desempaquetado de Caracteres ###
 languaje = "Python"
+a, b, c, d, e, f = languaje #Si quiero igualar las letras a languaje, debo crear una por cada letra que en este caso lleva Python
+print (a)
+print (b)
+
+### División ###
+
+languaje_slice = languaje[1:3]
+print (languaje_slice)
+
+languaje_slice = languaje[1:]
+print (languaje_slice)
+
+languaje_slice = languaje[-2] #Imprime en sentido contrario
+print (languaje_slice)
+
